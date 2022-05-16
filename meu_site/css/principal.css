@@ -1,0 +1,98 @@
+body{
+    background-color: #E9E8E8;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topo{
+    background-color: #0A1F2D;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.banner img{
+   width: 100%; 
+} 
+
+.banner{
+    position: relative;
+    margin: auto;
+}
+
+.banner p {
+    position: absolute;
+    background-color: #000;
+    color:#f4f806;
+    padding: 15px;
+    font-size: 12px;
+    bottom: 60px;
+    left: 20px;
+}
+
+.todos_cards{
+    margin: auto;
+    width: 90%;
+}
+
+.card {
+    height: 380px;
+    text-align: center;
+}
+
+.card img {
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card a{
+    text-decoration: none;
+    background-color: rgb(0, 122, 53);
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card a:hover{
+    background-color: rgb(22, 172, 87);
+}
+
+.rodape{
+    background-color: #0A1F2D;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    clear: both;
+}
+
+@media (min-width: 900px){
+    .banner p{
+        font-size: 22px;
+    }
+
+    .topo{
+        font-size: 22px;
+    }
+
+    .rodape{
+        font-size: 22px;
+    }
+
+    .card a{
+        font-size: 16px;
+    }
+
+    .card {
+        float: left;
+        width: calc(50% - 10px);
+    }
+
+    .card:nth-child(even) {
+        margin-left: 10px;
+    }
+}

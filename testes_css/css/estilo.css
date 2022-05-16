@@ -1,0 +1,28 @@
+div {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteudo{
+    color: blueviolet;
+}
+
+.formulario {
+    color: #778899;
+    font-size: 16px;
+}
+
+.botao{
+    background-color: green;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    padding: 10px;
+}
+
+.btn-cancelar {
+    border: none;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}

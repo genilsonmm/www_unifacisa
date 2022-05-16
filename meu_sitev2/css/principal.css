@@ -1,0 +1,42 @@
+body{
+    background-color: #E9E8E8;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topo{
+    background-color: #0A1F2D;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 12vw;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.banner img{
+    width: 100%; 
+ } 
+
+.banner p {
+    position: absolute;
+    background-color: #000;
+    color:#f4f806;
+    padding: 15px;
+    font-size: 1.5vw;
+    bottom: 60px;
+    left: 20px;
+}
+
+.rodape{
+    background-color: #0A1F2D;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5vw;
+    clear: both;
+}
